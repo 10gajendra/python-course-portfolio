@@ -1,0 +1,13 @@
+names=["Gajendra","samyoul",1,34.56,False]
+print(names)
+print(names[1])
+print(names[0:3])
+names[0]='Dipak'
+print(names)
+names.append('Ram')
+print(names)
+names.append(1)
+print(names)
+names.remove('Ram')
+print(names)
+print(type(names))
